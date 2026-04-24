@@ -1,6 +1,6 @@
-body{
-  background: #1e1e1e;
-  color: white;
+body {
+  background: white;
+  color: #1e1e1e;
   font-family: Arial;
   display: flex;
   justify-content: center;
@@ -8,22 +8,40 @@ body{
   height: 100vh;
 }
 
-.container{
+.container {
   text-align: center;
-  background: #2a2a2a;
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 40px;
   border-radius: 10px;
 }
 
-input{
+input {
   padding: 10px;
   margin: 10px;
 }
 
-button{
+button {
   padding: 10px 20px;
   background: #4CAF50;
   border: none;
   color: white;
   cursor: pointer;
+}
+
+.student-detail {
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.9;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #373131;
+  color: white;
+  width: 350px;
+  margin: auto;
+}
+
+.student-detail p {
+  margin: 5px;
 }
